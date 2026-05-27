@@ -23,7 +23,7 @@
         <a href="/admin/usuarios/create" class="btn-nav" style="background:#198754;">+ Novo Usuário</a>
         <a href="/admin/viacoes"         class="btn-nav">Viações</a>
         <a href="/admin/historico"       class="btn-nav">Ver Histórico</a>
-        <a href="/"                      class="btn-nav" style="background:#5e6569;color:#fff;">Voltar</a>
+        <a href="/admin/viacoes"         class="btn-nav" style="background:#5e6569;color:#fff;">Voltar</a>
         <a href="/logout"                class="btn-nav" style="background:#dc3545;">Logout</a>
     </nav>
 </header>
