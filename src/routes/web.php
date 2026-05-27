@@ -4,6 +4,7 @@ use App\Controllers\ViacaoController;
 use App\Controllers\HistoricoController;
 use App\Controllers\LoginController;
 use App\Controllers\LogAcessoController; // IMPORTAÇÃO NOVA PARA O SOC
+use App\Controllers\UsuarioController;
 
 /** @var \App\Core\Router $router */
 
@@ -31,3 +32,11 @@ $router->get('/admin/historico', [HistoricoController::class, 'index']);
 
 // --- ADMIN - AUDITORIA SOC (LOGS DE ACESSO) ---
 $router->get('/admin/logs-acesso', [LogAcessoController::class, 'index']);
+
+// --- Usuarios ---
+$router->get('/admin/usuarios',                [UsuarioController::class, 'index']);
+$router->get('/admin/usuarios/create',         [UsuarioController::class, 'create']);
+$router->post('/admin/usuarios',               [UsuarioController::class, 'store']);
+$router->get('/admin/usuarios/{id}/edit',      [UsuarioController::class, 'edit']);
+$router->put('/admin/usuarios/{id}',           [UsuarioController::class, 'update']);
+$router->delete('/admin/usuarios/{id}',        [UsuarioController::class, 'destroy']);

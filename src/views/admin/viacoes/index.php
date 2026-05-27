@@ -20,7 +20,7 @@
     <nav>
         <a href="/admin/viacoes/create" class="btn-nav" style="background: #198754;">+ Nova Viação</a>
         <a href="/admin/historico" class="btn-nav">Ver Histórico</a>
-
+        <a href="/admin/usuarios" class="btn-nav" style="background: #4e73df;">Usuários</a>
         <a href="/admin/logs-acesso" class="btn-nav" style="background: #343a40; color: #ffffff;">Logs de Acesso</a>
 
         <a href="/" class="btn-nav" style="background: #5e6569; color: #ffffff;">Voltar</a>

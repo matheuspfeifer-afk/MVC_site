@@ -112,6 +112,7 @@ final class ViacaoController
     public function edit(int $id): void
     {
         $viacao = $this->service->find($id);
+
         if (!$viacao) {
             header('Location: /admin/viacoes');
             exit;
