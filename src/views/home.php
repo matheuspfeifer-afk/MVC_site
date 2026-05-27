@@ -336,6 +336,7 @@
             font-size: 22px;
             color: #0c2044;
             margin-bottom: 8px;
+            padding: 20px;
         }
 
         .subtitulo-viacoes {
@@ -1579,7 +1580,7 @@
     </aside>
 
     <article class="container-viacoes container-principal">
-        <header>
+        <header style="border-radius: 8px">
             <h2 class="titulo-viacoes">Passagens de Ônibus Baratas: Viações de Ônibus</h2>
             <p class="subtitulo-viacoes">A sua passagem de ônibus na viação de sua preferência</p>
         </header>
