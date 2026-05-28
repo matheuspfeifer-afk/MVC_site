@@ -711,7 +711,6 @@
             display: flex;
             flex-direction: column;
             gap: 5px;
-            padding: 15px;
         }
 
         .desc .titulo {
@@ -900,7 +899,7 @@
             background-color: #151557;
             border-radius: 8px;
             box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-            padding: 60px;
+            padding: 20px;
             gap: 20px;
             width: 100%;
             color: white;
@@ -1509,7 +1508,6 @@
         <a href="/login" class="painel_adm">
             <button class="btn-primary-acess">Acesso ADM </button>
         </a>
-
     </nav>
 </header>
 
@@ -1581,7 +1579,7 @@
     </aside>
 
     <article class="container-viacoes container-principal">
-        <header style="border-radius: 8px">
+        <header>
             <h2 class="titulo-viacoes">Passagens de Ônibus Baratas: Viações de Ônibus</h2>
             <p class="subtitulo-viacoes">A sua passagem de ônibus na viação de sua preferência</p>
         </header>
